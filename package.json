@@ -1,0 +1,37 @@
+{
+	"name": "@celluloid/vision-api",
+	"version": "1.0.0",
+	"license": "MIT",
+	"type": "module",
+	"packageManager": "pnpm@9.0.0",
+	"exports": {
+		"./client": {
+			"types": "./dist/client/index.d.ts",
+			"default": "./dist/client/index.js"
+		},
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"dist/**/*"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "pnpm run build:clean && pnpm run generate && tsc",
+		"build:clean": "shx rm -rf ./dist",
+		"generate": "openapi-ts",
+		"clean": "git clean -xdf .cache .turbo dist node_modules",
+		"typecheck": "tsc --noEmit --emitDeclarationOnly false"
+	},
+	"devDependencies": {
+		"@hey-api/openapi-ts": "^0.92.0",
+		"shx": "^0.4.0",
+		"typescript": "^5.9.3",
+		"@tsconfig/recommended": "^1.0.13"
+	}
+}
