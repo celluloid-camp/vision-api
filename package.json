@@ -5,15 +5,14 @@
 	"type": "module",
 	"packageManager": "pnpm@9.0.0",
 	"exports": {
-		"./client": {
-			"types": "./dist/client/index.d.ts",
-			"default": "./dist/client/index.js"
-		},
 		".": {
-			"types": "./dist/index.d.ts",
-			"default": "./dist/index.js"
+			"types": "./dist/sdk.gen.d.ts",
+			"default": "./dist/sdk.gen.js"
 		},
-		"./package.json": "./package.json"
+		"./client": {
+			"types": "./dist/client/client.gen.d.ts",
+			"default": "./dist/client/client.gen.js"
+		}
 	},
 	"files": [
 		"dist/**/*"
