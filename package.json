@@ -1,6 +1,6 @@
 {
 	"name": "@celluloid/vision-api",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "MIT",
 	"type": "module",
 	"packageManager": "pnpm@9.0.0",
