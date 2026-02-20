@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/celluloid-camp/vision-api/compare/v1.0.0...v1.1.0) (2026-02-20)
+
+
+### Features
+
+* Update package.json exports and TypeScript configuration; add NPM_TOKEN to release workflow ([16ce09b](https://github.com/celluloid-camp/vision-api/commit/16ce09b0a741854c968253341dc0eeb4ccc9bf5e))
+
 ## 1.0.0 (2026-02-19)
 
 
