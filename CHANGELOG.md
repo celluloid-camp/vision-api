@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/celluloid-camp/vision-api/compare/v1.1.1...v1.2.0) (2026-02-22)
+
+
+### Features
+
+* Add schemas export to package.json for TypeScript definitions and JavaScript files ([18c56af](https://github.com/celluloid-camp/vision-api/commit/18c56afa8d4c146662d0028476097a83f1ce860f))
+
 ## [1.1.1](https://github.com/celluloid-camp/vision-api/compare/v1.1.0...v1.1.1) (2026-02-22)
 
 
