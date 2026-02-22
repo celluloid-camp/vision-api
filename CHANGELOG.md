@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/celluloid-camp/vision-api/compare/v1.1.0...v1.1.1) (2026-02-22)
+
+
+### Bug Fixes
+
+* Update OpenAPI client configuration and schema definitions; change project_id to external_id and adjust API endpoints ([aa792b7](https://github.com/celluloid-camp/vision-api/commit/aa792b78672d9c81ad781af62e69a8323fa07ceb))
+
 ## [1.1.0](https://github.com/celluloid-camp/vision-api/compare/v1.0.0...v1.1.0) (2026-02-20)
 
 
