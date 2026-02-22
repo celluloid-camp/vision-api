@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/celluloid-camp/vision-api/compare/v1.2.0...v1.3.0) (2026-02-22)
+
+
+### Features
+
+* Add types export to package.json for TypeScript definitions and JavaScript files ([1e1fb8e](https://github.com/celluloid-camp/vision-api/commit/1e1fb8e8da4b94bc3180082be226f810906b2b1c))
+
 ## [1.2.0](https://github.com/celluloid-camp/vision-api/compare/v1.1.1...v1.2.0) (2026-02-22)
 
 
