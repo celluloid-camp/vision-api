@@ -358,6 +358,10 @@ export const JobCompletedWebhookSchema = {
             type: 'string',
             title: 'External Id'
         },
+        job_type: {
+            type: 'string',
+            title: 'Job Type'
+        },
         status: {
             type: 'string',
             title: 'Status'
@@ -372,6 +376,7 @@ export const JobCompletedWebhookSchema = {
     required: [
         'job_id',
         'external_id',
+        'job_type',
         'status',
         'timestamp'
     ],

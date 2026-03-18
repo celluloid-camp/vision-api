@@ -222,6 +222,10 @@ export type JobCompletedWebhook = {
      */
     external_id: string;
     /**
+     * Job Type
+     */
+    job_type: string;
+    /**
      * Status
      */
     status: string;
