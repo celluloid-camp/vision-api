@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/celluloid-camp/vision-api/compare/v1.3.0...v1.4.0) (2026-03-18)
+
+
+### Features
+
+* Update client SDK to support new job types and schemas for object and scene detection ([565204f](https://github.com/celluloid-camp/vision-api/commit/565204fcca22454bbb912a6fcf1be3524d11d4ba))
+
 ## [1.3.0](https://github.com/celluloid-camp/vision-api/compare/v1.2.0...v1.3.0) (2026-02-22)
 
 
