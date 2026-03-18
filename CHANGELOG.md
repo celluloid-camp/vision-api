@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/celluloid-camp/vision-api/compare/v1.4.0...v1.5.0) (2026-03-18)
+
+
+### Features
+
+* Add job_type field to JobCompletedWebhook schema and type definition ([4cbab23](https://github.com/celluloid-camp/vision-api/commit/4cbab233a0bfdeab86bb4a0a46a7c50acd5552cd))
+
 ## [1.4.0](https://github.com/celluloid-camp/vision-api/compare/v1.3.0...v1.4.0) (2026-03-18)
 
 
